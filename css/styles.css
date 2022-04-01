@@ -88,7 +88,7 @@ button{
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.14;
-  border-bottom: 1px solid #ececec;
+  /* border-bottom: 1px solid #ececec; */
 }
 .site-nav,
 .contacts-nav,
@@ -195,6 +195,7 @@ button{
   width: 696px;
 }
 .hero-background {
+  border-top: 1px solid #ececec;
   max-width: 1600px;
   max-height: 600px;
   margin-left: auto;
