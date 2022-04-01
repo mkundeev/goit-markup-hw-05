@@ -590,8 +590,8 @@ button{
   padding-left: 24px;
   padding-right: 24px;
   }
-.examples-container:hover .examples-overlay,
-.examples-container:focus .examples-overlay,{
+.examples-link:hover .examples-overlay,
+.examples-link:focus .examples-overlay {
   transform: translateY(-100%);
 }
 /* ----------------------backdrop------------------------- */
