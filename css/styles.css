@@ -289,6 +289,7 @@ button{
 .team-list {
   display: flex;
   margin-left: -30px;
+  
 }
 .team-list .title {
   color: var(--title-text-color);
@@ -296,7 +297,6 @@ button{
   font-weight: 500;
   line-height: 1.19;
   text-align: center;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-list .text {
@@ -313,12 +313,15 @@ button{
     0 1px 3px rgba(0, 0, 0, 0.12);
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
+  padding-bottom: 30px;
 }
+.team-container > img {
+  margin-bottom: 30px;
+}
+
 /* -----------------------социальные сети-------------------------------------------------- */
 .team-sm-list {
   display: flex;
-  min-height: 44px;
-  margin-bottom: 30px;
   padding-right: 16px;
   padding-left: 16px;
   align-items: center;
@@ -326,7 +329,6 @@ button{
 }
 
 .team-sm-link {
-  display: block;
   height: 44px;
   width: 44px;
   display: flex;
